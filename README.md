@@ -78,4 +78,4 @@ Here’s the full list of programming exercises from all three images, organized
 
 ---
 
-Would you like me to turn any of these into working Java code, or help you solve them interactively with hints and explanations?
+QUESTIONS CREATED BY CHATGPT AND COPILOT
