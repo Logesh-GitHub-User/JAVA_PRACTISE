@@ -12,16 +12,16 @@ public class Q1{
         int spaces=0;
         
         for(int i=0;i<s.length();i++){
-            if((char)s.charAt(i) == 32){
+            if(s.charAt(i) == 32){
                 spaces++;
             }
-            else if((char)s.charAt(i)>=48 && (char)s.charAt(i)<=57){
+            else if(s.charAt(i)>=48 && s.charAt(i)<=57){
                 digits++;
             }
-            else if((char)s.charAt(i) >= 65 && (char)s.charAt(i) <= 90){
+            else if(s.charAt(i) >= 65 && s.charAt(i) <= 90){
                 upper++;
             }
-            else if((char)s.charAt(i) >= 97 && (char)s.charAt(i) <= 122){
+            else if(s.charAt(i) >= 97 && s.charAt(i) <= 122){
                 lower++;
             }
         }
